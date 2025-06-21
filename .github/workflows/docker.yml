@@ -29,6 +29,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
-          file: ./Dockerfile
+          file: ./examples/react-app/Dockerfile
           push: true
-          tags: ghcr.io/digitalclock:latest
+          tags: ghcr.io/${{ github.repository }}:latest
