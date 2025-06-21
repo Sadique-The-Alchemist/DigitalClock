@@ -31,4 +31,4 @@ jobs:
         with:
           file: .Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/sadique-the-alchemist/digitalclock:latest
