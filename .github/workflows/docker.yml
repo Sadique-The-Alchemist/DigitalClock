@@ -31,4 +31,4 @@ jobs:
         with:
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}-digital-clock:latest
+          tags: ghcr.io/d3-creators5-digital-clock:latest
